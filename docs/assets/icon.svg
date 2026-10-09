@@ -1,1 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><rect width="512" height="512" rx="128" fill="#167a65"/><path d="M134 178h152c66 0 89 83 40 116l-40 27" fill="none" stroke="#fffdf7" stroke-width="38" stroke-linecap="round"/><path d="m154 123-55 55 55 55M378 334H226c-66 0-89-83-40-116l40-27" fill="none" stroke="#bcdf93" stroke-width="38" stroke-linecap="round" stroke-linejoin="round"/><path d="m358 279 55 55-55 55" fill="none" stroke="#fffdf7" stroke-width="38" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="green" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1d6550"/>
+      <stop offset="1" stop-color="#195743"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#green)"/>
+  <!-- Two friends form the owner's b/o monogram. -->
+  <circle cx="168" cy="136" r="44" fill="#f7f8ee"/>
+  <circle cx="335" cy="148" r="42" fill="#cfdfa8"/>
+  <path fill="#cfdfa8" fill-rule="evenodd" d="M330 204a109 109 0 1 1 0 218 109 109 0 0 1 0-218Zm0 62a47 47 0 1 0 0 94 47 47 0 0 0 0-94Z"/>
+  <path fill="url(#green)" d="M200 238c54 0 94 39 94 95 0 56-40 96-96 96-57 0-98-40-98-97v-80c0-36 25-62 59-62 25 0 41 21 41 48Z"/>
+  <path fill="#f7f8ee" fill-rule="evenodd" stroke="#1c604b" stroke-width="7" paint-order="stroke" d="M200 238c54 0 94 39 94 95 0 56-40 96-96 96-57 0-98-40-98-97v-80c0-36 25-62 59-62 25 0 41 21 41 48Zm-22 55c-12 0-18 3-18 16v23c0 24 16 40 38 40s40-17 40-39c0-24-18-40-42-40Z"/>
+</svg>
