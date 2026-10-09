@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="570" height="390" viewBox="0 0 570 390" fill="none">
+<ellipse cx="302" cy="352" rx="214" ry="20" fill="#234F40" opacity=".08"/>
+<circle cx="351" cy="172" r="136" fill="#E0E9C6"/><circle cx="385" cy="105" r="41" fill="#EEC77C"/>
+<path d="M102 291 230 104l86 130 58-88 119 145Z" fill="#96BDA6"/><path d="m158 291 138-171 126 171Z" fill="#5F9B81"/><path d="m297 120-36 45 33-10 25 13Z" fill="#F5F6E8"/><path d="M68 302c137-68 306-56 443 4l-10 40H72Z" fill="#CCE0B2"/>
+<path d="m182 348 22-52c12-28 79-17 100-33" stroke="#FBF5D9" stroke-width="25"/>
+<path d="M459 205v122M428 260l31-55 31 55Zm-10 34 41-71 41 71Z" fill="#277B60" stroke="#277B60" stroke-width="6" stroke-linejoin="round"/>
+<path d="M104 207v122M79 262l25-55 25 55Zm-7 29 32-71 32 71Z" fill="#4B8D67" stroke="#4B8D67" stroke-width="6" stroke-linejoin="round"/>
+<g transform="translate(167 166) rotate(-9)"><rect width="192" height="167" rx="17" fill="#174B3F" opacity=".1" transform="translate(5 10)"/><path d="M17 0h158a17 17 0 0 1 17 17v139l-12 11-12-9-12 9-12-9-12 9-12-9-12 9-12-9-12 9-12-9-12 9-12-9-12 9-12-9-12 9L0 156V17A17 17 0 0 1 17 0" fill="#FFFCF4"/><rect x="20" y="22" width="34" height="34" rx="10" fill="#D7ECD9"/><path d="m28 39 6 6 12-13" stroke="#167A65" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M68 32h80M68 44h45M22 77h147" stroke="#C9D5C6" stroke-width="6" stroke-linecap="round"/><path d="M25 102h63M126 102h40M25 120h41M135 120h31" stroke="#71887B" stroke-width="7" stroke-linecap="round"/>
+</g>
+<g transform="translate(350 237) rotate(12)"><rect width="139" height="70" rx="16" fill="#fffdf7"/><circle cx="31" cy="35" r="18" fill="#DBEDD2"/><path d="m23 35 6 6 11-12" stroke="#167A65" stroke-width="3" stroke-linecap="round"/><text x="60" y="32" fill="#286452" font-family="Arial,sans-serif" font-size="12" font-weight="700">CHIA ĐỀU</text><text x="60" y="49" fill="#6A8271" font-family="Arial,sans-serif" font-size="11">Vui cùng nhau</text></g>
+<path d="m418 50 5 12 13 1-10 8 3 13-11-7-11 7 3-13-10-8 13-1Z" fill="#E7AA5C"/><path d="m120 112 4 11 12 4-12 4-4 11-4-11-12-4 12-4Z" fill="#689877"/><circle cx="458" cy="155" r="5" fill="#D4A65C"/><circle cx="156" cy="66" r="4" fill="#8AAF80"/>
+</svg>
