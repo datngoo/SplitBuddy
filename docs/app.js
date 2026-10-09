@@ -47,7 +47,7 @@ const avatar = (m, index = 0) => `<span class="avatar c${index % 5}" title="${es
 const avatars = members => `<div class="avatars">${members.slice(0, 4).map(avatar).join('')}${members.length > 4 ? `<span class="avatar">+${members.length - 4}</span>` : ''}</div>`;
 const button = (action, label, ico, style = 'btn-secondary', extra = '') => `<button class="btn ${style}" data-action="${action}" ${extra}>${ico ? icon(ico) : ''}${label}</button>`;
 const iconButton = (action, label, ico, extra = '') => `<button class="icon-btn" data-action="${action}" aria-label="${esc(label)}" title="${esc(label)}" ${extra}>${icon(ico)}</button>`;
-const brand = () => `<button class="brand" data-action="home" aria-label="SplitBuddy — Trang chủ"><img src="./assets/icon.svg" alt=""><span>Split<span class="accent">Buddy</span></span></button>`;
+const brand = () => `<button class="brand" data-action="home" aria-label="SplitBuddy by Bo — Trang chủ"><img src="./assets/icon.svg" alt=""><span class="brand-wordmark"><span class="brand-name">SplitBuddy</span><span class="brand-signature">by Bo</span></span></button>`;
 let data, savedRaw = null, storageIssue = '', corruptRaw = null;
 let filter = 'active', search = '', toastTimer, modalOpener;
 try {
@@ -98,7 +98,7 @@ function render() {
   const activeTrips = data.trips.filter(t => !t.archived);
   document.title = `${r.trip ? r.trip.name : r.page === 'data' ? 'Sao lưu dữ liệu' : 'Chuyến đi của bạn'} · SplitBuddy`;
   app.innerHTML = `<div class="shell">
-    <aside class="sidebar"><div>${brand()}<p class="brand-sub">Chia tiền, giữ niềm vui.</p></div>
+    <aside class="sidebar"><div class="sidebar-brand">${brand()}</div>
       <nav aria-label="Điều hướng chính">
       ${navLink('home', 'Chuyến đi của tôi', 'bag', r.page === 'home' || r.page === 'trip', `<span class="nav-count">${activeTrips.length}</span>`)}
       ${navLink('archive', 'Đã lưu trữ', 'archive', r.page === 'archive')}
